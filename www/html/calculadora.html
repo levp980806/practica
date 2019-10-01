@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1> Calculadora </h1>
+    <label for ="n1">Número</label>
+    <input type="text" id="n1"> 
+    <button onclick="cuadrado()">X<sup>2</sup></button>
+
+    <script type="text/javascript">
+        function cuadrado(){
+            var num = document.getElementById("n1");
+            num.value = num.value * num.value;
+        }
+    </script>
+</body>
+</html>
